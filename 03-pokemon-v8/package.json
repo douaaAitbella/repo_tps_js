@@ -1,0 +1,8 @@
+{
+  "name": "pokemon-battle",
+  "version": "1.0.0",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "node-fetch": "^2.0.0"
+  }
+}
