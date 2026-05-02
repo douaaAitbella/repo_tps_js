@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .p-6
+    h1.text-2xl.mb-4 Books Page
+
+    a(href="/logout" class="text-red-500") Logout
+
+    ul.mt-4
+      each book in books
+        li.bg-white.p-3.mb-2.shadow
+          strong= book.title
+          |  - 
+          span= book.author
